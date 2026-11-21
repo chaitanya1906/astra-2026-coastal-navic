@@ -1,0 +1,30 @@
+#node_modules
+node_modules/
+.pnp
+.pnp.js
+
+# Testing and Coverage
+coverage/
+
+# Production Build
+dist/
+dist-ssr/
+*.local
+
+# Cache and Temp
+.vite/
+.eslintcache
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# OS Generated
+.DS_Store
+Thumbs.db
