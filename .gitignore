@@ -28,3 +28,7 @@ dist-ssr/
 # OS Generated
 .DS_Store
 Thumbs.db
+
+# Local user documents & credentials
+*.pptx
+*recovery-codes*.txt

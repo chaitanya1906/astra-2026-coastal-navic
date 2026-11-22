@@ -2,6 +2,8 @@
 
 This guide provides a step-by-step walkthrough of the **ASTRA 2026** platform to replicate the experience demonstrated in our official demo video (`demo/DEMO_VIDEO.mp4`).
 
+🌐 **Live Deployment:** [https://astra-2026-coastal-navic.vercel.app/](https://astra-2026-coastal-navic.vercel.app/)
+
 ---
 
 ## 🎬 Demo Video

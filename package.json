@@ -2,6 +2,7 @@
   "name": "astra-2026-satellite-coastal-rescue-platform",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://astra-2026-coastal-navic.vercel.app/",
   "type": "module",
   "scripts": {
     "dev": "vite",

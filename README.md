@@ -1,5 +1,6 @@
 # ASTRA 2026: Satellite Coastal Flood Risk, Warning & NavIC Rescue Platform
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-astra--2026--coastal--navic.vercel.app-00dfa2?style=for-the-badge&logo=vercel&logoColor=black)](https://astra-2026-coastal-navic.vercel.app/)
 [![ASTRA 2026](https://img.shields.io/badge/ASTRA-2026-0284c7?style=for-the-badge&logo=spacex&logoColor=white)](https://github.com/chaitanya1906/astra-2026-coastal-navic.git)
 [![Three.js](https://img.shields.io/badge/Three.js-WebGL-black?style=for-the-badge&logo=three.js)](https://threejs.org/)
 [![React](https://img.shields.io/badge/React-18-61dafb?style=for-the-badge&logo=react)](https://react.dev/)
@@ -7,8 +8,9 @@
 
 An interactive, mission-grade 3D Earth digital twin unifying Earth Observation, Space-Based Disaster Management, and Satellite/NavIC Emergency Communication. Designed to visualize coastal inundation risks, simulate cellular infrastructure failure during extreme cyclones, and demonstrate direct-to-satellite rescue routing via India's NavIC constellation.
 
-**Repository:** [https://github.com/chaitanya1906/astra-2026-coastal-navic.git](https://github.com/chaitanya1906/astra-2026-coastal-navic.git)  
-**Demo Video:** [`demo/DEMO_VIDEO.mp4`](demo/DEMO_VIDEO.mp4) (Tracked with Git LFS)
+🌐 **Live Application:** [https://astra-2026-coastal-navic.vercel.app/](https://astra-2026-coastal-navic.vercel.app/)  
+📂 **Source Repository:** [https://github.com/chaitanya1906/astra-2026-coastal-navic.git](https://github.com/chaitanya1906/astra-2026-coastal-navic.git)  
+🎬 **Demo Video:** [`demo/DEMO_VIDEO.mp4`](demo/DEMO_VIDEO.mp4) (Tracked with Git LFS)
 
 ---
 
@@ -82,9 +84,10 @@ An interactive, mission-grade 3D Earth digital twin unifying Earth Observation, 
 │   │   └── lucide.d.ts            # Type declarations for UI icons
 │   ├── App.tsx                    # Main WebGL coordinator & 3D animation loop
 │   └── main.tsx                   # React 18 DOM entry point
-├── .gitignore                     # Git ignore rules (node_modules, dist, cache)
 ├── .gitattributes                 # Git LFS configuration for MP4 and large binary media
-├── package.json                   # Dependencies and scripts
+├── .gitignore                     # Git ignore rules (node_modules, dist, cache)
+├── package.json                   # Dependencies, homepage, and scripts
+├── vercel.json                    # Vercel SPA routing rules
 └── vite.config.ts                 # Vite build configuration
 ```
 
@@ -138,3 +141,4 @@ An interactive, mission-grade 3D Earth digital twin unifying Earth Observation, 
 - **ISRO (Indian Space Research Organisation):** NavIC / IRNSS constellation standards, Bhuvan, MOSDAC, and VEDAS disaster management frameworks.
 - **NASA Earth Observatory:** Visible Earth Blue Marble imagery textures.
 - **Open-Meteo:** Open-access marine and oceanographic weather models.
+- **Vercel:** Production hosting at [https://astra-2026-coastal-navic.vercel.app/](https://astra-2026-coastal-navic.vercel.app/).
